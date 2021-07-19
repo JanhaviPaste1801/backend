@@ -10,6 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.app.insurance</groupId>
+	<packaging>war</packaging>
 	<artifactId>InsuranceApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>InsuranceApplication</name>
