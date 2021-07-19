@@ -93,8 +93,9 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
+	
 	<build>
+		<finalName>${artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -103,3 +104,6 @@
 		</plugins>
 	</build>
 </project>
+
+
+
