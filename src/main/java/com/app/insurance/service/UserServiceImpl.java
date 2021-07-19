@@ -163,7 +163,7 @@ public class UserServiceImpl implements UserService {
 	@Transactional
 	public void deleteUser(int userId) throws NotFoundException {
 		Optional<User> user = userRepository.findById(userId);
-		if (user.isEmpty()) {
+		if (user==null) {
 			logger.info("User With the given user id not found");
 			throw new NotFoundException("NO USER TO DELETE");
 		} else {
