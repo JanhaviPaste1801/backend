@@ -33,9 +33,9 @@ public class ClaimedPolicyServiceImpl implements ClaimedPolicyService {
 	@Autowired
 	RestTemplate restTemplate;
 
-	private static final String USER_URL = "http://localhost:9098/users/viewUser/";
+	private static final String USER_URL = "http://localhost:8085/InsuranceApplication_Backend/users/viewUser/";
 
-	private static final String POLICY_URL = "http://localhost:9098/policy/viewPolicy/";
+	private static final String POLICY_URL = "http://localhost:8085/InsuranceApplication_Backend/policy/viewPolicy/";
 
 	Logger logger = LoggerFactory.getLogger(ClaimedPolicyServiceImpl.class);
 
